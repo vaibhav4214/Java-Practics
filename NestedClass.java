@@ -1,3 +1,6 @@
+//nested call inside his parent class only
+// class created inside other class called as nested class
+
 public class NestedClass {
     public static void main(String[] args) {
         
@@ -12,8 +15,7 @@ class Demo {
     void printName()
     {
         System.out.println("Java");
-           NestedC n=new NestedC();
-        n.printName();
+         
     }
 
     class NestedC{
