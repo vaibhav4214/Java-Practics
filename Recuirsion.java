@@ -1,3 +1,4 @@
+//Recursion is the technique of making a function call itself
 public class Recuirsion {
     
     public static void main(String[] args) {
