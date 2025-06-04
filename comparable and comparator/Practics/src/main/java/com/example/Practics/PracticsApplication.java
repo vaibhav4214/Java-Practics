@@ -20,17 +20,25 @@ public class PracticsApplication {
 			emps.add(new Emp("Radha",1, "1"));
 			emps.add(new Emp("vaibhv", 50, "M"));
 			emps.add(new Emp("Ankit", 19, "M"));
-			System.out.println(emps);
+			System.out.println("No Sorting---------->"+emps);
+			System.out.println("|");
+			
+
 			Collections.sort(emps);		//sort using comparable
-			System.out.println("sort using comparable"+emps);
+			System.out.println("sort using comparable----->"+emps);
+						System.out.println("|");
+
+
 
 
 			emps.add(new Emp("rahul", 9, "M"));
 			Collections.sort(emps,new IdComparator());
-			System.out.println("sort using comparator"+emps);
+			System.out.println("sort using Id comparator "+emps);
+						System.out.println("|");
+
 
 			Collections.sort(emps,new StringComparator());
-			System.out.println(emps);
+			System.out.println("sort using Id comparator "+emps);
 
 
 	}
