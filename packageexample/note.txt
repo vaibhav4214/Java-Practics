@@ -1,0 +1,2 @@
+we can use public class within package in another package also
+but default class we can use only within his package

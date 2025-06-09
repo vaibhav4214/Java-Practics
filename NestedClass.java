@@ -1,4 +1,4 @@
-//nested call inside his parent class only
+//nested class  inside his parent class only
 // class created inside other class called as nested class
 
 public class NestedClass {

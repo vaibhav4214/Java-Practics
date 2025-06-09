@@ -1,9 +1,11 @@
 package com.example.collectionss;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.ListIterator;
 import java.util.TreeSet;
 import java.util.Vector;
@@ -118,6 +120,40 @@ public class CollectionssApplication {
 					});
 				
 
+					//array to collection================================
+					 // array input
+					 System.out.println("=======================array to collection=====================");
+        String arr[]= { "Virat", "Sachin", "Rohit", "Bumrah" };
+      
+        // printing input elements for comparison
+        System.out.println("Array input: "
+                           + Arrays.toString(arr));
+      
+        // converting array into Collection
+        // with asList() function
+        List playersList = Arrays.asList(arr);
+      
+        // print converted elements
+        System.out.println("Converted elements: "
+                           + playersList);
+
 					
-				}
+
+						   System.out.println("=============================collection to array====================");
+				List<Integer> list1 = new ArrayList<Integer>();
+
+        list1.add(1);
+        list1.add(2);
+        list1.add(3);
+        list1.add(4);
+
+        Object[] array = list1.toArray();
+
+        System.out.print("The Array contains : ");
+
+        for (int i = 0; i < array.length; i++) {
+            System.out.print(array[i] + " ");
+        }
+				
+						}
 			}
